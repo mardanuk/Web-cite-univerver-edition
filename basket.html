@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Заголовок документа</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="text basket_title">Оформление заказа</div>
+    <div id = "basket_body"></div>
+    
+    <div class="basket_body"></div>
+    <div class="total_card">
+        <div class="text basket_total_text">
+            ИТОГО: &nbsp;
+        </div>
+        <div class="text" id="basket_total_cost">
+            0р.
+        </div>
+    </div>
+    <a href="basket.html"><button class="text blue_button basket_buy_button">Купить</button></a>
+    <a href="content.html"><button class="text blue_button basket_back_button">Назад</button></a>
+</body>
+<script src="localStorageUtils.js"></script>
+<script src="catalog.js"></script>
+<script src="components/basket.js"></script>
+</html>
